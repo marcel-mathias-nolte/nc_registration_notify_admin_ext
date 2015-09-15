@@ -5,9 +5,9 @@
  * 
  * Copyright (C) 2005-2012 Leo Feyer
  * 
- * @package   NC Registration Admin Notification 
+ * @package   NC Registration Admin Notification Extended 
  * @author    Marcel Mathias Nolte
- * @copyright Marcel Mathias Nolte 2013
+ * @copyright Marcel Mathias Nolte 2015
  * @website	  https://www.noltecomputer.com
  * @license   <marcel.nolte@noltecomputer.de> wrote this file. As long as you retain this notice you
  *            can do whatever you want with this stuff. If we meet some day, and you think this stuff 
@@ -21,4 +21,3 @@
  */
 $GLOBALS['TL_HOOKS']['createNewUser'][] = array('NcNotifyAdministrator', 'informAdminCreate');
 $GLOBALS['TL_HOOKS']['activateAccount'][] = array('NcNotifyAdministrator', 'informAdminActivate');
-//$GLOBALS['TL_HOOKS']['closeAccount'][] = array('NcNotifyAdministrator', 'informAdminClose');
